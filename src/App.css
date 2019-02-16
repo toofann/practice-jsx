@@ -1,0 +1,74 @@
+.Footer {
+  display:flex;
+  flex-wrap: wrap;
+  justify-content:space-around;
+  background-image: url('./img/footer.png');
+}
+p {
+  margin:4px 0px 4px 0px;
+  color: rgb(206, 214, 214);
+}
+h2 {
+  margin:50px 0px 50px 0px;
+  color: rgb(245, 235, 235);
+}
+.Stay a {
+
+}
+.Stay div {
+  margin-bottom:22px;
+}
+.Stay a , .Form a {
+  text-decoration: none;
+  color: rgb(127, 214, 214);
+  padding-bottom: 5px;
+}
+.Stay a:hover , .Form a:hover {
+  border-bottom: 2px solid rgb(66, 83, 82);
+}
+.Stay div {
+  display: flex;
+}
+.Stay a {
+  align-self:center; 
+  margin-left: 10px;
+}
+.Contact {
+  display: flex;
+  flex-flow: column;
+}
+.Input {
+  height: 30px;
+  margin-bottom: 5px;
+  background-color: #3c1613;
+  border:1px solid rgb(240, 237, 237);
+  border-radius: 5px;
+  color:white;
+  padding-left: 10px;
+}
+.Textarea {
+  height: 160px;
+  background-color: #3c1613;
+  border:1px solid rgb(240, 237, 237);
+  border-radius: 5px;
+  color:white;
+  padding: 10px 10px;
+}
+.Form , .Contact {
+  margin:100px 0px 120px 0px;
+  width:250px;
+  text-align: center;
+}
+.Button {
+  margin-top: 5px;
+  font-size: 15px;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+.Button:hover {
+  cursor: pointer;
+  background-color: rgb(49, 11, 11);
+  color: white;
+}
+
