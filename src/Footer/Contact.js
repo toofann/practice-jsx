@@ -14,4 +14,4 @@ let Contact = props => {
   );
 };
 
-export { Contact };
+export default Contact;

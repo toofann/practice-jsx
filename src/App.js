@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { Company, Stay, Form, Contact } from './Footer/Footerexport';
+import { Company, Stay, Form, Contact } from './Footer';
 
 function App() {
   return (
